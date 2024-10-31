@@ -6,6 +6,7 @@ This Python script automates the generation of 7750 SR Nokia network device conf
 
 1. Clone or download this repository.
 2. Install the required packages using pip `Python 3.x`:
+
     ```bash
     pip install pandas openpyxl ipaddress colorama 
     ```
@@ -14,10 +15,11 @@ This Python script automates the generation of 7750 SR Nokia network device conf
 
 1. Prepare your Excel file (`Network_DataPlan.xlsx`) with the required configuration data
 2. Run the script:
+
    ```bash
    python network_config_generator_v1.2.py
    ```
-3. Generated configurations will be saved in the `FinalConfigFiles` directory
+4. Generated configurations will be saved in the `FinalConfigFiles` directory
 
 
 ## Input Data Format
